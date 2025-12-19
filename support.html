@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support Center for SquadBrain - Sports Memorization Game">
+    <title>Support - SquadBrain</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #0a0e27 0%, #1a1f3a 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #e5e7eb;
+        }
+
+        .logo {
+            font-size: 3em;
+            margin-bottom: 10px;
+        }
+
+        h1 {
+            color: #f59e0b;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .tagline {
+            color: #6b7280;
+            font-size: 1.1em;
+        }
+
+        h2 {
+            color: #1f2937;
+            margin-top: 35px;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        h2 .icon {
+            font-size: 1.2em;
+        }
+
+        h3 {
+            color: #4b5563;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        p, li {
+            margin-bottom: 12px;
+            color: #4b5563;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #fef3c7 0%, #fde68a 100%);
+            border: 2px solid #f59e0b;
+            border-radius: 12px;
+            padding: 25px;
+            margin: 30px 0;
+            text-align: center;
+        }
+
+        .contact-box h3 {
+            color: #92400e;
+            margin-top: 0;
+            font-size: 1.3em;
+        }
+
+        .contact-box a {
+            color: #d97706;
+            font-weight: 600;
+            font-size: 1.2em;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-box p {
+            color: #78350f;
+            margin-bottom: 5px;
+        }
+
+        .faq-item {
+            background: #f9fafb;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-left: 4px solid #f59e0b;
+        }
+
+        .faq-item h3 {
+            color: #1f2937;
+            margin-top: 0;
+            margin-bottom: 10px;
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin: 20px 0;
+        }
+
+        .feature-card {
+            background: #f3f4f6;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .feature-card .emoji {
+            font-size: 2em;
+            margin-bottom: 8px;
+        }
+
+        .feature-card h4 {
+            color: #1f2937;
+            font-size: 1em;
+            margin-bottom: 5px;
+        }
+
+        .feature-card p {
+            font-size: 0.85em;
+            color: #6b7280;
+            margin-bottom: 0;
+        }
+
+        .response-time {
+            background: #ecfdf5;
+            border: 1px solid #10b981;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .response-time p {
+            color: #065f46;
+            margin-bottom: 0;
+            font-weight: 500;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #e5e7eb;
+            color: #9ca3af;
+            font-size: 0.9em;
+        }
+
+        .footer a {
+            color: #f59e0b;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 25px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .logo {
+                font-size: 2.5em;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🏈🧠</div>
+            <h1>SquadBrain Support</h1>
+            <p class="tagline">Master any memorization challenge. Test your knowledge.</p>
+        </div>
+
+        <div class="contact-box">
+            <h3>Need Help? Contact Us</h3>
+            <p>Our support team is here to help!</p>
+            <a href="mailto:sulmusic2@gmail.com">sulmusic2@gmail.com</a>
+            <div class="response-time">
+                <p>We typically respond within 24-48 hours</p>
+            </div>
+        </div>
+
+        <h2><span class="icon">📱</span> About SquadBrain</h2>
+        <p>SquadBrain is a sports memorization game that challenges you to test your knowledge across multiple professional sports leagues. Compete in real-time matches, climb the leaderboards, and earn badges as you progress through your space-themed journey!</p>
+
+        <div class="feature-grid">
+            <div class="feature-card">
+                <div class="emoji">⚡</div>
+                <h4>Quick Match</h4>
+                <p>Real-time competitive matches</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🏆</div>
+                <h4>Leaderboards</h4>
+                <p>Compete globally</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🚀</div>
+                <h4>Space Badges</h4>
+                <p>Unlock 17+ unique badges</p>
+            </div>
+            <div class="feature-card">
+                <div class="emoji">🔥</div>
+                <h4>Daily Streaks</h4>
+                <p>Earn rewards daily</p>
+            </div>
+        </div>
+
+        <h2><span class="icon">❓</span> Frequently Asked Questions</h2>
+
+        <div class="faq-item">
+            <h3>How do I start playing?</h3>
+            <p>Simply open the app and tap "Quick Match" to jump into a game immediately. You can also practice with specific sports or create custom games from the home screen.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How does the ranking system work?</h3>
+            <p>Your ELO rating increases when you win matches and decreases when you lose. The amount of change depends on your opponent's rating. Win against higher-ranked players to climb faster!</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>What are the space badges?</h3>
+            <p>As you level up, you unlock themed space badges representing your journey from a Small Rocket (Level 1) all the way to the Universe (Level 60). Each badge features unique designs that get more impressive as you progress.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do daily streaks work?</h3>
+            <p>Play at least one game each day to maintain your streak. Longer streaks unlock better daily rewards including XP boosts and bonus points!</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I restore my purchases?</h3>
+            <p>Go to Settings in the app and tap "Restore Purchases". This will restore any previous in-app purchases associated with your Apple ID.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>The app is crashing or not loading. What should I do?</h3>
+            <p>Try these steps: 1) Force close and reopen the app, 2) Check for app updates in the App Store, 3) Restart your device, 4) Reinstall the app. If issues persist, contact us with your device model and iOS version.</p>
+        </div>
+
+        <div class="faq-item">
+            <h3>How do I delete my account?</h3>
+            <p>To request account deletion, please email us at sulmusic2@gmail.com with the subject "Account Deletion Request". We will process your request within 30 days and confirm once your data has been deleted.</p>
+        </div>
+
+        <h2><span class="icon">🔧</span> Troubleshooting</h2>
+
+        <h3>Connection Issues</h3>
+        <ul>
+            <li>Ensure you have a stable internet connection (WiFi or cellular data)</li>
+            <li>Check if other apps can connect to the internet</li>
+            <li>Try switching between WiFi and cellular data</li>
+            <li>Disable VPN if you have one enabled</li>
+        </ul>
+
+        <h3>Game Performance</h3>
+        <ul>
+            <li>Close other apps running in the background</li>
+            <li>Make sure your device has sufficient storage space</li>
+            <li>Keep your iOS updated to the latest version</li>
+            <li>Restart your device if performance seems slow</li>
+        </ul>
+
+        <h3>Account & Progress</h3>
+        <ul>
+            <li>Your progress is saved automatically as you play</li>
+            <li>Sign in with the same account to sync across devices</li>
+            <li>Contact support if you notice missing progress or achievements</li>
+        </ul>
+
+        <h2><span class="icon">📧</span> Contact Support</h2>
+        <p>If you cannot find the answer to your question above, please reach out to our support team. When contacting us, please include:</p>
+        <ul>
+            <li>Your device model (e.g., iPhone 15 Pro)</li>
+            <li>Your iOS version (e.g., iOS 17.2)</li>
+            <li>App version (found in Settings)</li>
+            <li>A detailed description of your issue</li>
+            <li>Screenshots if applicable</li>
+        </ul>
+
+        <div class="contact-box">
+            <h3>Email Us</h3>
+            <a href="mailto:sulmusic2@gmail.com">sulmusic2@gmail.com</a>
+            <div class="response-time">
+                <p>We read every message and will get back to you as soon as possible</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>SquadBrain &copy; 2025. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="privacy-policy.html">Privacy Policy</a> &nbsp;|&nbsp;
+                <a href="terms-of-service.html">Terms of Service</a>
+            </p>
+            <p style="margin-top: 15px; font-size: 0.85em;">
+                Not affiliated with any professional league or organization.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
